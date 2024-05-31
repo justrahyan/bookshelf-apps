@@ -171,3 +171,36 @@ footer .socmed .fa-brands{
 footer p{
     color: #fff;
 }
+
+/* responsive */
+@media screen and (max-width: 1200px){
+    .content{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .search-container input {
+        width: 80%;
+    }
+    
+    .search-container .search-icon{
+        width: 20%;
+    }
+    .bookshelf .book-item button#delete,
+    .bookshelf .book-item button#complete{
+        font-size: 14px;
+    }
+    footer{
+        padding: 2rem;
+    }
+    footer .socmed{
+        width: 10%;
+    }
+    footer .socmed .fa-brands{
+        font-size: 16px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+}
